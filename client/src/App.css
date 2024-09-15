@@ -1,0 +1,35 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+.navbar{
+  background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+}
+@media  screen and (max-width:800px) {
+  .navbar{
+    width: 375px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.logo{  
+  width: 200px;
+  height: 38px;   
+  font-size: 30px;
+  line-height: 37.92px;
+}
